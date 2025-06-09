@@ -3,18 +3,28 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "node --watch server.js"
+    "dev": "node --watch server.js",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "Wesley Henrique",
   "license": "ISC",
   "type": "module",
-  "description": "",
+  "description": "Este repositório contém exemplos de código para criar uma API CRUD (Create, Read, Update, Delete) utilizando Node.js, o ORM Prisma e o banco de dados MongoDB.",
   "dependencies": {
     "@prisma/client": "^6.7.0",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "uuid": "^11.1.0"
   },
   "devDependencies": {
     "prisma": "^6.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/henriquewesley/nodeclass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/henriquewesley/nodeclass/issues"
+  },
+  "homepage": "https://github.com/henriquewesley/nodeclass#readme"
 }
